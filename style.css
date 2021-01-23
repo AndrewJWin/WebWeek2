@@ -14,12 +14,14 @@ h1 {
     font-style: italic;
 }
 
+/* Apply style to entirety of the Movie div. */
 #movie {
     border: inset;   
     border-color: honeydew;
     text-align: center;
 }
 
+/* Specifically add style to the movie titles. */
 #movieTitle {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: -webkit-linear-gradient(rgb(187, 162, 51), rgb(212, 43, 37));
@@ -27,10 +29,12 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
+/* Specific styling to movie paragraphs. */
 #MovieParagraph {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* General Style for Artist div */
 #artist {
     border: inset;
     border-color: honeydew;
@@ -38,16 +42,18 @@ h1 {
     text-align: center;
 }
 
+/* Specific styling for Artist paragraphs. */
 #ArtistParagraph {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Lone style for name class. */
 #name {
     font-size: 16px;
     font-weight: 200;
 }
 
-
+/* General style for Foods div. */
 #foods {
     border: inset;
     border-color: honeydew;
@@ -56,16 +62,19 @@ h1 {
     text-align: center;
 }
 
+/* Specific style for the food list */
 #FoodList {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     padding: 4px;
 }
 
+/* General style for Books div */
 #books {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Specific style for the Book table. */
 #BookTable {
     border: 1px solid black;
     border-collapse: collapse;
@@ -74,20 +83,24 @@ h1 {
     padding: 10px;
 }
 
+/* Broad style for all table rows, headers and data fields. */
 tr, td, th {
     width: 225px;
     border: 1px solid black;
     text-align: center;
 }
 
+/* Specific style for the table header. */
 th {
     background-color: rgb(131, 131, 131);
 }
 
+/* Self-setting style for all even table rows. */
 tr:nth-child(even) {
     background-color: rgb(103, 123, 136);
 }
 
+/* Self-setting style for all odd table rows. */
 tr:nth-child(odd) {
     background-color: rgb(92, 113, 128);
 }
